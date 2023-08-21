@@ -1,13 +1,460 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #494F55;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.heading {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #F8C000ff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.testimonialHighlights {
+color: #ED46A0ff;
+font-weight: 600;
+}
+
+.formwidth {
+width: 500px;
+}
+
+.formFont {
+font-family: 'Montserrat', sans-serif;
+}
+
+
+.picOneAbout {
+left: 30vh;
+margin-bottom: 50px;
+/* padding: 50px; */
+/* transform: rotate(-.02turn); */
+}
+
+.picTwoAbout {
+left: 5vh;
+top: 30vh;
+/* transform: rotate(.02turn); */
+}
+
+
+.contactFormHeading {
+/* font-family: 'Montserrat', sans-serif; */
+font-family: 'Barlow Condensed', sans-serif;
+color: #ED46A0ff;
+font-size: 40px;
+font-weight: bold;
+}
+
+.servicesImage {
+height: 100%;
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+object-fit: cover;
+position: relative;
+zoom: 25%;
+}
+
+.aboutPageImage {
+height: 100%;
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+object-fit: cover;
+position: absolute;
+zoom: 25%;
+opacity: 0.9;
+}
+
+.servicesImageDiv {
+height: 350px;
+}
+
+.servicesPhotos {
+height: 450px;
+width: 300px;
+}
+
+.testimonialPic {
+height: 275px;
+width: 275px;
+border-radius: 50%;
+background-position: top;
+background-repeat: no-repeat;
+object-fit: cover;
+}
+
+.aboutDiv {
+height: 300px;
+background-color: #BE6B9Dff;
+}
+
+.aboutImageDiv {
+height: 350px;
+position: relative;
+}
+
+.blockquote {
+font-size: 80px;
+}
+
+.aboutHomeHeading {
+color: #FFA701ff;
+font-size: 40px;
+font-weight: bold;
+font-family: 'Barlow Condensed', sans-serif;
+}
+
+.funFactHeadingOne {
+color: #FFA701ff;
+font-size: 25px;
+}
+
+.funFactHeadingTwo {
+color: #ED46A0ff;
+font-size: 25px;
+}
+
+.funFactHeadingThree {
+color: #F8C000ff;
+font-size: 25px;
+}
+
+.funFactSubHeadingOne {
+color: #ED46A0ff;
+font-size: 15px;
+}
+
+.funFactSubHeadingTwo {
+color: #F8C000ff;
+font-size: 20px;
+}
+
+.funFactSubHeadingThree {
+color: #ED46A0ff;
+font-size: 20px;
+}
+
+.centeredAbout {
+  position: absolute;
+  z-index: 2;
+  top:40%;
+  left: 15%;
+  color: white;
+  font-weight: bold;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 30px;
+}
+
+.testimonialFont {
+font-size: 18px;
+}
+
+.aboutHomeImage {
+width: auto;
+height: 475px;
+}
+
+.aboutHomeImageMain {
+width: auto;
+height: 300px;
+}
+
+.contactMeImage {
+width: auto;
+height: 600px;
+}
+
+p {
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-size: 20px;
+color: #343231
+}
+
+.contactInfoParagraph {
+font-size: 15px;
+}
+
+.servicesButton {
+border-radius: 50%;
+width: 150px;
+height: 150px;
+font-family: 'Barlow Condensed', sans-serif;
+background-color: #F8C000ff;
+font-weight: bold;
+font-size: 30px;
+color: white;
+border: 3px solid #ED46A0ff;
+/* box-shadow: 5px 5px 10px 2px rgba(0,0,0,.4); */
+}
+
+.aboutButton {
+border-radius: 50%;
+width: 150px;
+height: 150px;
+font-family: 'Barlow Condensed', sans-serif;
+background-color: #FFA701ff;
+font-weight: bold;
+font-size: 30px;
+color: white;
+border: 3px solid #ED46A0ff;
+/* box-shadow: 5px 5px 10px 2px rgba(0,0,0,.4); */
+}
+
+.servicesButton:hover {
+background-color: white;
+font-weight: bold;
+font-size: 30px;
+color: #ED46A0ff;
+border: 3px solid #FFA701ff;
+/* box-shadow: 5px 5px 10px 2px rgba(0,0,0,.4); */
+}
+
+.homePageText {
+/* margin-left: 20px;
+margin-right: 20px; */
+max-width: 80%;
+overflow-wrap: break-word;
+}
+
+.photoCollage {
+max-width: 95%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.aboutButton:hover {
+background-color: white;
+font-weight: bold;
+font-size: 30px;
+color: #ED46A0ff;
+border: 3px solid #F8C000ff;
+/* box-shadow: 5px 5px 10px 2px rgba(0,0,0,.4); */
+}
+
+.logoPicture {
+  width: auto;
+  height: 65px;
+}
+
+.navBar {
+  border-radius: 5px 15px 200px 15px/15px 225px 15px 255px;
+  /* border-bottom:solid 2px rgb(222, 49, 99, .8); */
+  border-bottom:solid 2px rgb(237, 70, 160, .8);
+  background-color: white;
+}
+
+.NavBarLink {
+  padding-right: 25px;
+  padding-left: 25px;
+  text-decoration: none;
+  color: #ED46A0ff;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+
+}
+
+.footerLink {
+padding-right: 25px;
+padding-left: 25px;
+text-decoration: none;
+color: white;
+font-family: 'Barlow Condensed', sans-serif;
+font-weight: 500;
+font-size: 1rem;
+
+}
+
+.dahlia {
+height: 150px;
+width: auto;
+}
+
+.cobaltBlue {
+height: 100px;
+width: 100px;
+}
+
+
+.flipText {
+transform: rotate(-90deg);
+}
+
+.flipTextOther {
+transform: rotate(-270deg);
+}
+
+.cdmx {
+height: 50px;
+width: auto;
+}
+
+.footer {
+background-color: #ED46A0ff;
+height: 75px;
+}
+
+.welcomeImage {
+  max-width: 100%;
+  max-height: 80%;
+}
+
+.center {
+  z-index: 1;
+  position: absolute;
+  top: 2%;
+  left: 7%;
+  text-align: center;
+  color: #f5f5f5;
+  /* font-family: 'Barlow Condensed', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ED46A0ff;
+  padding: 10px;
+  border-radius: 5px;
+   /* transform: rotate(-.06turn); */
+}
+
+.offCenter {
+  position: absolute;
+  top: 48%;
+  left: 7%;
+  text-align: center;
+  /* font-family: 'Barlow Condensed', sans-serif; */
+  /* font-family: 'Shrikhand', cursive; */
+  font-family: 'Montserrat', sans-serif;
+  color: #f5f5f5;
+  background-color: #ED46A0ff;
+  /* background-color: #DE3163; */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.centerAbout {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  text-align: center;
+  color: #f5f5f5;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ED46A0ff;
+  padding: 10px;
+  border-radius: 5px;
+  transform: rotate(-25deg);
+}
+
+.offCenterAbout {
+  position: absolute;
+  top: 60%;
+  left: 7%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #f5f5f5;
+  background-color: #ED46A0ff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+  .center, .offCenter, .centerAbout, .offCenterAbout {
+    font-size: 48px;
+    font-weight: 600;
+  }
+}
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 1199.98px) {
+  .center, .offCenter, .centerAbout, .offCenterAbout {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+  /* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+  .center {
+      top: 20%;
+      left: 5%;
+  }
+}
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 1199.98px) {
+  .center {
+      top: 20%;
+      left: 5%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .offCenter {
+      top: 48%;
+      left: 7%;
+  }
+}
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 1199.98px) {
+  .offCenter {
+      top: 30%;
+      left: 7%;
+  }
+}
+
+@media (min-width: 800px) {
+  .gridBorderOne {
+    border-bottom:1px solid #ED46A0ff;
+    border-right:1px solid #ED46A0ff;
+  }
+}
+@media (max-width: 799.98px) {
+  .gridBorderOne {
+    border-bottom:1px solid #ED46A0ff;
+  }
+}
+
+@media (min-width: 800px) {
+  .gridBorderTwo {
+    border-right:1px solid #ED46A0ff;
+  }
+}
+@media (max-width: 799.98px) {
+  .gridBorderTwo {
+    /* border-right:1px solid #ED46A0ff; */
+    border-bottom:1px solid #ED46A0ff;
+  }
+}
+
+.testimonialImage {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.gridBorder {
+  border-bottom:1px solid #ED46A0ff;
+  border-right:1px solid #ED46A0ff;
+}
+
+.gridBorderRight {
+  border-bottom:1px solid #ED46A0ff;
+}
+
+.gridBorderBottom {
+  border-right:1px solid #ED46A0ff;
+}
+
+@media (min-width: 800px) {
+  .gridBorderServices {
+    border-right:1px solid #ED46A0ff;
+  }
+}
+@media (max-width: 799.98px) {
+  .gridBorderServices {
+    border-bottom:1px solid #ED46A0ff;
+  }
 }
