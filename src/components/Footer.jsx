@@ -8,13 +8,13 @@ export default function Footer() {
                 <img src = {invertedLogo} className = "logoPicture"/>
             </div>
             <div className = "divSmallScreen">
-                <div className = "mr-0 pr-0">
+                <div className = "m-0 pr-0">
                     <Link to="about" className = "footerLink">About</Link>
-                    <Link to="contact" className = "footerLink">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact</Link>
+                    <Link to="services" className = "footerLink" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Services</Link>
                 </div>
-                <div className = "mr-0 pr-0">
+                <div className = "m-0 pr-0">
                     <Link to="portfolio" className = "footerLink">Portfolio</Link>
-                    <Link to="services" className = "footerLink" >Services</Link>
+                    <Link to="contact" className = "footerLink">Contact</Link>
                 </div>
             </div>
         </div> 
