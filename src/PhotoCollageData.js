@@ -7,7 +7,6 @@ import floralArrangement from './images/home-gallery/FloralArrangement.png'
 import meganAndHusband from './images/home-gallery/MeganAndHusband.png'
 import eventPhoto from './images/home-gallery/EventPhoto.png'
 import homepage8191 from './images/home-gallery/homepage8-19-1.jpg'
-import homepage8192 from './images/home-gallery/homepage8-19-2.png'
 import homepage8193 from './images/home-gallery/homepage8-19-3.jpg'
 import homepage8194 from './images/home-gallery/homepage8-19-4.png'
 import homepage8195 from './images/home-gallery/homepage8-19-5.png'
@@ -31,7 +30,6 @@ export const photos = [
   { src:  `${meganAndHusband}`, width: 700, height: 1000 },
   { src: `${brightFlowersHome}`, width: 3400, height: 5000 },
   { src:  `${floralArrangement}`, width: 1400, height: 1000 },
-  { src:  `${homepage8192}`, width: 1000, height: 1200 },
 ];
 
 export const setting = {
