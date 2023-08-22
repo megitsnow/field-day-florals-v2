@@ -1,4 +1,4 @@
-import cityHallWedding from '../images/services-page/portfolio8.jpg'
+import cityHallWedding from '../images/services-page/413A5816-1.jpg'
 import arrangingFlowers from '../images/services-page/arrangingFlowersBlue.jpg'
 import subscriptionImage from '../images/services-page/subscriptions.png'
 
