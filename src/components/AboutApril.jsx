@@ -20,9 +20,10 @@ export default function AboutApril() {
                 </div>
                 <h1 className = "text-center aboutHomeHeading">Hi, I am April!</h1>
                 <p><em>Owner of Field Day Florals</em></p>
-                <p class="text-center text-paragraph">Field Day Florals is a beautiful fusion of my passions: flowers, celebrations, and community. As a lifelong flower enthusiast, I embraced this hobby during the pandemic when I had ample free time. Immersing myself in tutorials and exploring various styles, my love for floral design flourished.</p>
-                <p>Balancing my blossoming hobby with my EdTech career, I gradually honed my business and design skills through collaborations with local florists. This journey eventually led me to follow my dream of working with flowers full time.</p>
-                <p>In early 2023, I proudly launched Field Day Florals, embarking on an incredible adventure. Creating art with flowers, collaborating with local sellers, and fostering connections within my community have filled me with profound gratitude.</p>
+                <p class="text-center text-paragraph">Field Day Florals is a blend of things I love: flowers, celebrations & community. I’ve always been a flower lover, and when faced with lots of free time during the pandemic, I knew what hobby I wanted to pursue. I quickly found myself devouring tutorials and experimenting with different styles. </p>
+                <p>Balancing my growing hobby with my EdTech career, I developed my business and design skills by collaborating with local florists. This journey eventually led me to follow my dream of working with flowers full time and I launched my small business—Field Day Florals</p>
+                <p>I'm committed to sustainability and supporting local farmers. I feel grateful to create art with flowers, work with Bay Area businesses, and connect with folks in my community.</p>
+                <p>When I’m not working with flowers, you can find me exploring new parts of San Francisco, visiting local cafes and fun cocktail spots. Some of my favorite things include chocolate old-fashion donuts, Mexican food, thrift shopping, beach vacations and singing along to musicals!</p>
                 <button className = "aboutButton" onClick = {handleClick}>Contact Me!</button>
             </div>
             </div>

@@ -163,9 +163,9 @@ width: auto;
 height: 300px;
 }
 
-.contactMeImage {
-width: auto;
-height: 600px;
+
+.formDiv {
+  max-width: 90%
 }
 
 p {
@@ -185,9 +185,11 @@ width: 150px;
 height: 150px;
 font-family: 'Barlow Condensed', sans-serif;
 background-color: #F8C000ff;
+/* background-color: #ffe075; */
 font-weight: bold;
 font-size: 30px;
 color: white;
+/* color: #ED46A0ff; */
 border: 3px solid #ED46A0ff;
 /* box-shadow: 5px 5px 10px 2px rgba(0,0,0,.4); */
 }
@@ -210,7 +212,8 @@ background-color: white;
 font-weight: bold;
 font-size: 30px;
 color: #ED46A0ff;
-border: 3px solid #FFA701ff;
+/* border: 3px solid #FFA701ff; */
+border: 3px solid #ffe075;
 /* box-shadow: 5px 5px 10px 2px rgba(0,0,0,.4); */
 }
 
@@ -257,7 +260,10 @@ border: 3px solid #F8C000ff;
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: 500;
   font-size: 1.2rem;
+}
 
+.active {
+ text-decoration: underline #ED46A0ff !important;
 }
 
 .footerLink {
@@ -298,6 +304,7 @@ width: auto;
 .footer {
 background-color: #ED46A0ff;
 height: 75px;
+min-width: 100%;
 }
 
 .welcomeImage {
@@ -458,3 +465,38 @@ height: 75px;
     border-bottom:1px solid #ED46A0ff;
   }
 }
+
+  @media (max-width: 799.98px) {
+    .contactMeImage {
+      width: auto;
+      height: 400px;
+    }
+  }
+
+  @media (min-width: 800px) {
+    .contactMeImage {
+      width: auto;
+      height: 600px;
+    }
+  }
+
+  .contactPage {
+    margin-bottom: 45px;
+  }
+
+  @media (max-width: 799.98px) {
+    .footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  @media (min-width: 800px) {
+    .footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  

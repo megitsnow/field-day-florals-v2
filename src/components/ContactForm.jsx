@@ -16,11 +16,11 @@ export default function ContactMe() {
       }
 
     return (
-        <div id="contact" className = "bt-5 formFont d-flex flex-column align-items-center justify-content-center">
+        <div id="contact" className = "bt-5 formFont d-flex flex-column align-items-center justify-content-center contactForm">
             <h1 className = "text-center contactFormHeading">Let's Work Together!</h1>
-            <p>Need flowers for an event, curious about a workshop, or just wanna chat flowers? Please fill out the form below, and we’ll get back to you in two business days. 
+            <p className = "text-center text-paragraph">Need flowers for an event, curious about a workshop, or just wanna chat flowers? Please fill out the form below, and we’ll get back to you in two business days. 
 </p>
-                <div >
+                <div className = "formDiv">
                 <form ref = {form} onSubmit = {sendEmail} formWidth>
                     <div class = "form-group row">
                         <input type = "text" className = "mb-2 w-48 me-2"

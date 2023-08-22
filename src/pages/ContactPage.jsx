@@ -4,12 +4,14 @@ import GoToTop from "../components/GoToTop";
 
 export default function ContactPage() {
     return(
-        <div className = "container m-5">
-            <div className ="row text-center">
-                <div className = "col-md-6 mb-2">
-                    <img src = {DahliaBouquet} class= "contactMeImage"/>
+        <div className = "container p-5 contactPage">
+            <div className ="row">
+                <div className = "col-12 col-md-6 d-flex justify-content-center align-items-center pb-4">
+                    <div>
+                        <img src = {DahliaBouquet} class= "contactMeImage"/>
+                    </div>
                 </div>
-                <div className = "col-md-6">
+                <div className = "col-12 col-md-6 d-flex justify-content-center align-items-center">
                     <ContactMe/>
                 </div>
             </div>
