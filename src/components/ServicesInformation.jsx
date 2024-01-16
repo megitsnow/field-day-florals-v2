@@ -14,8 +14,8 @@ export default function ServicesInformation() {
                 <h1 className = "aboutHomeHeading text-center">Events & Weddings</h1>
                     <p>What’s a party without flowers?! No such thing. 
                     </p>
-                    <p>Field Day Florals has designed arrangements 
-                        for wedding ceremonies & receptions, rehearsal dinners, birthday parties, baby showers—if there's a party, 
+                    <p>Field Day Florals designs arrangements for
+                        wedding ceremonies & receptions, rehearsal dinners, birthday parties, baby showers—if there's a party, 
                         there better be flowers! </p>
                     <p>
                     Floral arches, centerpieces, garlands, crowns, and more— I
@@ -34,10 +34,10 @@ export default function ServicesInformation() {
                     Are your events feeling the same old, same old? Ditch the board games, and let’s play with flowers! 
                     </p>
                     <p>
-                    I’ll go over topics like color theory, flower care, and simple tips to really up your floral game. I provide everything you need to make a beautiful arrangement and have you feeling like a pro.
+                    My workshops are social, engaging and fun—the perfect way to flex your creative muscles at your next party or corporate event. I provide everything you need to make a beautiful arrangement and go over topics like color theory, flower care, and simple tips to really up your floral game.
                     </p>
                     <p>
-                    Workshops last around 2 hours and typically include 4-12 participants. Workshops can be hosted in my studio or I can come to you! 
+                    Workshops last around 2 hours and typically include 4-12 participants.  
                     </p>
                 </div>
             </div>

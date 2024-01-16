@@ -18,12 +18,12 @@ export default function AboutApril() {
             <div>
                 <div><img src = {WelcomeImage} className="aboutHomeImageMain" alt = "April, arranging florals in San Francisco, CA"/>
                 </div>
-                <h1 className = "text-center aboutHomeHeading">Hi, I am April!</h1>
-                <p><em>Owner of Field Day Florals</em></p>
+                <h1 className = "text-center aboutHomeHeading">Hi, I'm April!</h1>
+                <p><em>Founder & Owner of Field Day Florals</em></p>
                 <p class="text-center text-paragraph">Field Day Florals is a blend of things I love: flowers, celebrations & community. I’ve always been a flower lover, and when faced with lots of free time during the pandemic, I knew what hobby I wanted to pursue. I quickly found myself devouring tutorials and experimenting with different styles. </p>
                 <p>Balancing my growing hobby with my EdTech career, I developed my business and design skills by collaborating with local florists. This journey eventually led me to follow my dream of working with flowers full time and I launched my small business—Field Day Florals</p>
                 <p>I'm committed to sustainability and supporting local farmers. I feel grateful to create art with flowers, work with Bay Area businesses, and connect with folks in my community.</p>
-                <p>When I’m not working with flowers, you can find me exploring new parts of San Francisco, visiting local cafes and fun cocktail spots. Some of my favorite things include chocolate old-fashion donuts, Mexican food, thrift shopping, beach vacations and singing along to musicals!</p>
+                <p>When I’m not working with flowers, you can find me exploring new parts of the Bay Area, visiting local cafes and fun cocktail spots. Some of my favorite things include chocolate old-fashion donuts, Mexican food, thrift shopping, beach vacations and singing along to musicals!</p>
                 <button className = "aboutButton" onClick = {handleClick}>Contact Me!</button>
             </div>
             </div>

@@ -18,7 +18,7 @@ export default function HomePage({photos}) {
             <HomeOpening/>
             <div className="d-flex flex-column justify-content-center align-items-center mb-4">
                 <h2 className = "heading homePageText text-center">You Bring the Party, We Bring the Flowers</h2>
-                <p className = "text-center text-paragraph homePageText">Field Day Florals is a San Francisco-based, woman-owned floral design company. From small events and corporate dinners to elopements and large weddings, we can do it all.</p>
+                <p className = "text-center text-paragraph homePageText">Field Day Florals is a San Francisco-based, woman-owned floral design company. From large weddings to elopements and small events to corporate dinners, we do it all.</p>
             <button className = "servicesButton" onClick = {handleClick}>Services</button>
             </div>
             <div className = "photoCollage mb-4">

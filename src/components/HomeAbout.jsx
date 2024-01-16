@@ -16,7 +16,7 @@ function WelcomeSection() {
             <div class="col-md-6 d-flex aligns-items-center justify-content-center flex-column"> 
             <div>
                 <h1 className = "text-center aboutHomeHeading">Hi, I'm April!</h1>
-                <p><em>Owner of Field Day Florals</em></p>
+                <p><em>Found & Owner of Field Day Florals</em></p>
                 <p className="text-center text-paragraph">I founded Field Day Florals because I have a passion for celebrations, community, and of course, flowers! I love desigining florals for events because they bring nature, art, and beauty to already beautiful moments.</p>
                 <p className="text-center text-paragraph">Can't wait to hear more about your wedding or special event!</p>
                 <button className = "aboutButton" onClick = {handleClick}>Learn More</button>
